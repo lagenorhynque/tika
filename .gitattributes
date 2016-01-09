@@ -1,0 +1,6 @@
+*.xls diff=tika
+*.xlsx diff=tika
+*.doc diff=tika
+*.docx diff=tika
+*.ppt diff=tika
+*.pptx diff=tika
