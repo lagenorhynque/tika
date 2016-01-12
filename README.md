@@ -1,7 +1,7 @@
 tika
 ====
 
-gitリポジトリのMicrosoft Officeファイルをgit diffで差分表示する。
+gitリポジトリのMicrosoft Officeファイルなどをgit diffで差分表示する。
 
 ## Prerequisites
 - javaコマンドが実行可能なこと。
@@ -21,7 +21,8 @@ cd tika
 bash git-config-global.sh
 ```
 
-#### (3) 対象リポジトリの.gitattributesに以下の内容を追加する。
+#### (3) 対象リポジトリの.gitattributesに以下の内容を追加する(必要な拡張子は適宜追加)。
+※参考: [Apache Tika – Supported Document Formats](https://tika.apache.org/1.11/formats.html)
 
 ```
 *.xls diff=tika
