@@ -15,7 +15,7 @@ git clone https://github.com/lagenorhynchus/tika.git
 ```
 
 #### (2) .gitattributesに必要な拡張子の設定を適宜追加する。
-※参考: [Apache Tika – Supported Document Formats](https://tika.apache.org/1.11/formats.html)
+※参考: [Apache Tika – Supported Document Formats](https://tika.apache.org/1.17/formats.html)
 
 ```
 *.xls diff=tika
